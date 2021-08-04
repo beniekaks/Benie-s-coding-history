@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Map Objects</h2>
+
+<p>Being able to use an object as a key is an important Map feature:</p>
+
+<p id="demo"></p>
+
+<script>
+//Create Objects
+const apples = {name: 'apples'};
+const bananas = {name: 'Bananas'};
+const oranges = {name: 'Oranges'};
+
+//Create a new Map
+const fruits = new Map();
+
+// Add the objects to the Map
+fruits.set(apples, 500);
+fruits.set(bananas, 300);
+fruits.set(oranges, 200);
+
+// Display Objects Type
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
